@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dog App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Get Pics of a Dog by Breed</h1>
+		<form method="get">
+			<legend>What dog breed do you want?</legend>
+			<label for="dog-breed">Breed:</label>
+			<input id="dog-breed" type="text" placeholder="e.g. Bulldog" required>
+			<input type="submit" value="Show me the pic!">
+		</form>
+		<section class="results hidden">
+			<h2>Here's your dog!</h2>
+			<div class="images"></div>
+		</section>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
